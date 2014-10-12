@@ -1,4 +1,4 @@
-class Article < Active_Record::base
+class Article < ActiveRecord::Base
 
 
 end
