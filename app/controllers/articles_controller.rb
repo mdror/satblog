@@ -5,13 +5,15 @@ class ArticlesController < ApplicationController
 
   def create
 
-  @article = Article.new(article_params)
-
-
+  @article = Article.find(article_params)
 
   @article.save
   redirect_to @article
 
+  end
+
+  def show
+    @article = Article.save(params[:id])
   end
 
   private
