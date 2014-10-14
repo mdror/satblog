@@ -3,15 +3,12 @@
 
 <div class="center jumbotron">
 
-  <h1>THE M.A.D. BLOGGER</h1>
 
-</div>
+<h1><%= link_to 'THE M.A.D. BLOGGER', controller: 'articles' %></h1>
 
-<div>
 
-  <%= link_to image_tag("rounder.gif", alt: "Rails logo"),
+  <%= link_to image_tag("rounder.gif", alt: "logo"),
             controller: 'articles' %>
-</div>
 
 <div>
   <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
