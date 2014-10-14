@@ -1,5 +1,6 @@
-@import "bootstrap-sprockets";
 @import "bootstrap";
+@import "bootstrap-sprockets";
+
 /* universal */
 
 html {
@@ -74,4 +75,16 @@ h2 {
 p {
   font-size: 1.1em;
   line-height: 1.7em;
+}
+
+a {
+
+  color: black;
+
+}
+
+#signup {
+
+  margin-top: 10px;
+
 }
